@@ -1,0 +1,28 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+.alert-info {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: var(--light-color);
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: var(--light-color);
+}
